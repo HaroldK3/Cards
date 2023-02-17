@@ -16,15 +16,18 @@ public class program
     {
 
         Console.WriteLine("This is the original deck of cards.");
-        Deck[] deck1 = new Deck[51];
+        Deck deck1 = new Deck();
 
-        foreach (Deck card in deck1)
+        for (int i = 0; i < 52; i++)
         {
-            Console.WriteLine(deck1.ToString());
+            Console.WriteLine(deck1.DealACard());
         }
+        
 
 
         Console.WriteLine("This is the original deck shuffled.");
+
+        
         
 
     }

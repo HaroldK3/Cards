@@ -3,7 +3,7 @@ namespace Cards
 {
 	public class Deck
 	{
-        Card[] deckCards = new Card[51];
+        Card[] deckCards = new Card[52];
         int nextCard = 0;
 
         public Deck()
@@ -11,23 +11,22 @@ namespace Cards
 			for (int i = 0; i < 52; i++)
 			{
 				Card card = new Card(i);
-				deckCards = new Card[card]; 
-
-
+				deckCards[i] = card;
+				
 			}
-            nextCard = 0;
         }
 		
-		public Deck(Card[] existingDeck)
+		public Deck(Deck existingDeck)
 		{
             
             for (int i = 0; i < 52; i++)
 			{
-				deckCards = new Card[i];
+                Card card = new Card(i);
+                deckCards[i] = card;
+
 				existingDeck = deckCards;
-				
-			}
-            nextCard = 0;
+
+            }
         }
 
 		
@@ -42,7 +41,7 @@ namespace Cards
 				int num = random.Next();
 
 				deckCards.ToString();
-				
+				nextCard = 0;
             }
 			
 			
@@ -55,16 +54,9 @@ namespace Cards
 			return singleCard;
 		}
 
-		public void DealAHand(int handSize)
+		public Card DealAHand(int handSize)
 		{
 			
-			for (int i = 0; i <= handSize; i++)
-			{
-				string hand1 = deckCards[nextCard].ToString();
-				nextCard++;
-            }
-
-            
         }
 		
 	}
