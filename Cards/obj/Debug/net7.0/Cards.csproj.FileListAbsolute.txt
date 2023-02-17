@@ -1,0 +1,15 @@
+/Users/kaylee/Projects/Cards/Cards/bin/Debug/net7.0/Cards
+/Users/kaylee/Projects/Cards/Cards/bin/Debug/net7.0/Cards.deps.json
+/Users/kaylee/Projects/Cards/Cards/bin/Debug/net7.0/Cards.runtimeconfig.json
+/Users/kaylee/Projects/Cards/Cards/bin/Debug/net7.0/Cards.dll
+/Users/kaylee/Projects/Cards/Cards/bin/Debug/net7.0/Cards.pdb
+/Users/kaylee/Projects/Cards/Cards/obj/Debug/net7.0/Cards.csproj.AssemblyReference.cache
+/Users/kaylee/Projects/Cards/Cards/obj/Debug/net7.0/Cards.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kaylee/Projects/Cards/Cards/obj/Debug/net7.0/Cards.AssemblyInfoInputs.cache
+/Users/kaylee/Projects/Cards/Cards/obj/Debug/net7.0/Cards.AssemblyInfo.cs
+/Users/kaylee/Projects/Cards/Cards/obj/Debug/net7.0/Cards.csproj.CoreCompileInputs.cache
+/Users/kaylee/Projects/Cards/Cards/obj/Debug/net7.0/Cards.dll
+/Users/kaylee/Projects/Cards/Cards/obj/Debug/net7.0/refint/Cards.dll
+/Users/kaylee/Projects/Cards/Cards/obj/Debug/net7.0/Cards.pdb
+/Users/kaylee/Projects/Cards/Cards/obj/Debug/net7.0/Cards.genruntimeconfig.cache
+/Users/kaylee/Projects/Cards/Cards/obj/Debug/net7.0/ref/Cards.dll
